@@ -107,3 +107,8 @@ h2
     object-fit: cover;
     filter: brightness(0.68);
 }
+
+.partenaireDiv img
+{
+    box-shadow: 3px 3px 6px rgba(14, 14, 14, 0.4);
+}
