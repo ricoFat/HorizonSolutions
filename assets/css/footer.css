@@ -1,0 +1,56 @@
+footer {
+    padding: 1rem;
+    /*  display: flex; */
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-black);
+    color: white;
+}
+
+.reseauFooter {
+    display: flex;
+    gap: 25px;
+    font-size: 2.3rem;
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+    /* justify-content: center; */
+}
+
+.reseauFooter a {
+    transition: scale 1s ease;
+}
+
+.reseauFooter a:hover {
+    scale: 1.8;
+    color: var(--primary-color);
+}
+
+.separation {
+    width: 75%;
+    height: 1px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+footer ul li {
+    margin-top: 10px;
+    margin-left: 0;
+}
+
+.logoFooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bi {
+    margin-right: 3px;
+}
+
+.icone {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}

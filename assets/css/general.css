@@ -1,0 +1,109 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+  height: 100vh;
+  scroll-behavior: smooth;
+  line-height: 1.5625;
+}
+
+body
+{
+    background-color: #fff;
+    color: var(--primary-black);
+    overflow-x: hidden;
+}
+
+img
+{
+    max-width: 100%;
+}
+
+li
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h3, h4, h6 
+{
+    line-height: 1.25;
+    font-size: 15px;  
+    font-weight: 600;
+    font-family: 'Trykker', serif;
+    text-transform: uppercase;
+}
+
+h6
+{
+    color: var(--steel-blue);
+    font-weight: 600;
+}
+
+h2 
+{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 600;
+    color: var(--primary-black);
+}
+
+
+/****************************/
+/*      --- BOUTON ---      */
+/****************************/
+
+.btn
+{
+    background-color: var(--primary-color);
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 20px;
+    outline: none;
+}
+
+.btn:hover
+{
+    background-color: var(--primary-black);
+    color: var(--primary-color);
+}
+
+
+/****************************/
+/*      --- CAROUSEL ---    */
+/****************************/
+
+.carousel-caption h5
+{
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.carousel-caption p
+{
+    font-size: 18px;
+}
+
+/*   .carousel-item
+{
+    height: 680px;
+}  */ 
+
+.carouselImg
+{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.68);
+}
