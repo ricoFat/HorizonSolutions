@@ -1,5 +1,5 @@
 // Add this JavaScript code to your existing main.js or a new JavaScript file
-const mobileMenuButton = document.getElementById('mobileMenu');
+/* const mobileMenuButton = document.getElementById('mobileMenu');
 const menuModal = document.getElementById('menuModal');
 const closeButton = document.querySelector('.close-button');
 
@@ -22,3 +22,28 @@ menuLinks.forEach((link) => {
         menuModal.style.left = '-300px';
     });
 });
+
+
+
+const mobileMenuButton = document.getElementById("mobileMenu");
+  const mainNav = document.getElementById("mainNav");
+
+  mobileMenuButton.addEventListener("click", toggleMobileMenu);
+
+  function toggleMobileMenu() {
+    if (mainNav.style.display === "block") {
+      mainNav.style.display = "none";
+    } else {
+      mainNav.style.display = "block";
+    }
+  } */
+
+  // Close the mobile menu when a menu item is clicked
+  const navLinks = document.querySelectorAll("#mainNav a");
+  navLinks.forEach((link) => {
+    link.addEventListener("click", closeMobileMenu);
+  });
+
+  function closeMobileMenu() {
+    mainNav.style.display = "none";
+  }
