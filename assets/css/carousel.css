@@ -1,0 +1,11 @@
+.carItem
+{
+    height: 800px;
+}
+
+.carImg
+{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}

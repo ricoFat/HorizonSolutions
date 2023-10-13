@@ -41,7 +41,7 @@ h1, h3, h4, h6
     font-size: 15px;  
     font-weight: 600;
     font-family: 'Trykker', serif;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 h6
