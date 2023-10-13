@@ -29,3 +29,8 @@ html:hover *, html:hover *:before {
 	transition-duration:  200ms;
 	transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
+
+.message
+{
+    resize: none;
+}
