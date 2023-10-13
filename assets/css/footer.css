@@ -1,5 +1,5 @@
 footer {
-    padding: 1rem;
+    padding: 1rem; 
     /*  display: flex; */
     align-items: center;
     justify-content: center;
@@ -33,9 +33,15 @@ footer {
     margin-bottom: 10px;
 }
 
-footer ul li {
+footer ul  {
     margin-top: 10px;
-    margin-left: 0;
+    margin-left: -2rem;
+   
+}
+
+footer li 
+{
+    margin-top: 10px;
 }
 
 .logoFooter {
@@ -49,7 +55,8 @@ footer ul li {
     margin-right: 3px;
 }
 
-.icone {
+.icone 
+{
     width: 25px;
     height: 25px;
     vertical-align: middle;
