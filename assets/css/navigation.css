@@ -1,8 +1,13 @@
-header , main
+nav, main
 {
     background-image: url('/assets/img/filigrane.png'); 
     background-size: cover;
     object-fit: cover; 
+}
+
+.nav-link
+{
+    color: black !important;
 }
 
 .navigation
@@ -19,20 +24,19 @@ header , main
 
  .logoNavigation
 {
-    height: 65px;
+    height: 75px;
 } 
 
-.navigation .lien
-{
-    display: flex;
-    gap: 1.5rem;
+nav .lien
+{   
+    gap: 5px;
     text-transform: uppercase;
     font-size: 1.2rem;  
 }
 
-.lien a:hover
+ .lien a:hover
 {
-    color: var(--primary-color);  
+    color: var(--primary-color) !important;  
 } 
 
 .lien_bar
@@ -45,7 +49,7 @@ header , main
     content: '';
     position: absolute;
     left: 0;
-    bottom: -8px;
+    bottom: -2px;
     width: 100%;
     height: 3px;
     background-color: var(--primary-color);
@@ -57,75 +61,12 @@ header , main
 
 .lien_bar:hover::after
 {
-    transform: translateX(2%);
+    transform: translateX(-2%);
     opacity: 1;
 }
 
-.navigation button
+
+.navbar-toggler-icon
 {
-    display: none;
-}
-
-
-/****** MENU  MODAL*/
-/* Add this CSS to your existing styles */
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    overflow: hidden;
-}
-
-.modal-content {
-    background-color: #5c5858;
-    height: 100%;
-    width: 0;
-    position: fixed;
-    top: 0;
-    left: -300px; /* Start off-screen on the left */
-    transition: 0.3s;
-    padding-top: 60px;
-}
-
-.close-button {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    font-size: 30px;
-    cursor: pointer;
-}
-
-.menu-modal-links {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
-}
-
-.menu-modal-links li {
-    margin: 10px 0;
-}
-
-.menu-modal-links a {
-    text-decoration: none;
-    color: black;
-    font-size: 1.5rem;
-}
-
-/* Media query for mobile menu button */
-@media screen and (max-width: 768px) {
-    .navigation .lien
-    {
-        display: none;
-    }
-    .navigation button {
-        display: block;
-    }
+    color: #2C8C44 !important;
 }
