@@ -1,0 +1,13 @@
+.card
+{
+	box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+}
+
+.card-header
+{
+    color: var(--primary-color) ;
+    background-color: var(--primary-black);
+    
+}
+
+
