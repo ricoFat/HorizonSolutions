@@ -153,3 +153,12 @@ p {
     
     align-items: center;
 } */
+.horizon
+{
+    color: var(--primary-color);
+}
+
+.solutions
+{
+    color: var(--steel-blue);
+}
