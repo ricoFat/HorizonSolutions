@@ -162,3 +162,36 @@ p {
 {
     color: var(--steel-blue);
 }
+
+h1::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 250px;
+    height: 1px;
+    background: black;
+    bottom: 1px;
+    left: calc(50% - 125px);
+}
+
+
+ h1 {
+    font-size: 32px;
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+h1::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: var(--primary-color);
+    bottom: 0;
+    left: calc(50% - 20px);
+}
