@@ -62,3 +62,14 @@ footer li
     height: 25px;
     vertical-align: middle;
 }
+
+.inactive
+{
+    color: lightgray;
+    pointer-events: none;
+}
+
+.inactive:hover
+{
+    color: lightgray
+}

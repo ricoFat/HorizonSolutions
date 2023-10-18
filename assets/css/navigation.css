@@ -70,3 +70,8 @@ nav .lien
 {
     color: #2C8C44 !important;
 }
+
+.inactive:hover
+{
+    color: lightgray
+}
