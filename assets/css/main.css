@@ -16,9 +16,9 @@
 	--gray: #aaa;
 }
 
-header, main
+nav, main
 {
-     background-image: url('/assets/img/filigrane.png'); 
+    background-image: url('/assets/img/filigrane.png'); 
     background-size: cover;
     object-fit: cover; 
 	background-position: center ;
