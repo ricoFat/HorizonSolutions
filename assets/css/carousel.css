@@ -13,11 +13,11 @@
     background-image: url('/assets/img/mecaniqueNoir.jpg');
 }
  */
-.carousel-item
+/* .carousel-item
 {
     height: 100vh; 
     min-width: 300px;
-}
+} */
 
 .carItem
 {
@@ -28,7 +28,7 @@
 
 .carousel-caption
 {
-    bottom: 220px;
+    /* bottom: 220px; */
     z-index: 3;
 }
 
@@ -36,7 +36,6 @@
 {
     text-transform: uppercase;
     font-size: 55px;
-
     letter-spacing: 2px;
     margin-top: 25px;
 }
@@ -51,7 +50,7 @@
 
 /**** RESPONSIVE CAROUSEL **/
 
-@media only screen and(min-width:768px) and (max-width:991px)
+/* @media only screen and(min-width:768px) and (max-width:991px)
 {
     .carousel-caption
     {
@@ -90,3 +89,4 @@
         display: none;
     }
 }
+ */
