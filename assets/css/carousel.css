@@ -1,11 +1,93 @@
-/* .carItem
+.bg-1
 {
-     height: 800px; 
-} */
+    background-image: url('/assets/img/banniere0SansNom.jpeg');
+}
 
-.carImg
+.bg-2
 {
-    height: 100%;
-    object-fit: cover;
-    filter: brightness(0.8);
+    background-image: url('/assets/img/banniere2Noir.jpg');
+}
+
+.bg-3
+{
+    background-image: url('/assets/img/mecaniqueNoir.jpg');
+}
+
+.carousel-item
+{
+    height: 100vh; 
+    min-width: 300px;
+}
+
+.carItem
+{
+     background-size: cover;
+     background-position: center;
+     object-fit: cover; 
+} 
+
+.carousel-caption
+{
+    bottom: 220px;
+    z-index: 3;
+}
+
+.carousel-caption h5
+{
+    text-transform: uppercase;
+    font-size: 55px;
+
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+
+.carousel-caption p
+{
+    width: 70%;
+    margin: auto;
+    font-size: 20px;
+    color: white !important;
+}
+
+/**** RESPONSIVE CAROUSEL **/
+
+@media only screen and(min-width:768px) and (max-width:991px)
+{
+    .carousel-caption
+    {
+        bottom: 300px;
+    }
+
+    .carousel-caption h5 
+    {
+        font-size: 30px;
+        letter-spacing: 1.5px;
+    }
+
+    .carousel-caption p
+    {
+        font-size: 18px;
+        width: 100%;
+    }
+}
+
+
+@media only screen and(max-width:767px) 
+{
+    .carousel-caption
+    {
+        bottom: 200px;
+    }
+
+    .carousel-caption h5 
+    {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .carousel-caption p
+    {
+        font-size: 12px;
+        width: 100%;
+    }
 }

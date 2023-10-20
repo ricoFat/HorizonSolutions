@@ -3,6 +3,8 @@ nav, main
     background-image: url('/assets/img/filigrane.png'); 
     background-size: cover;
     object-fit: cover; 
+    position: sticky;
+    z-index: 99;
 }
 
 .nav-link

@@ -1,0 +1,43 @@
+.btn
+{
+    display: inline-block; 
+    background-color: var(--primary-color);
+    padding: 0.4rem  1.3rem;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 20px;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    
+}
+
+.btn:hover
+{
+    background-color: var(--primary-black) !important;
+    color: var(--primary-color);
+}
+
+
+
+/****************************/
+/*      --- BOUTON ---      */
+/****************************/
+
+.btn
+{
+    display: inline-block;
+    background-color: var(--primary-color);
+    padding: 0.4rem  1.3rem;
+    font-weight: 500; 
+    font-size: 16px;
+    border-radius: 15px;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
