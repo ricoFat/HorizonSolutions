@@ -7,11 +7,11 @@
 
     $mailheader = "From:".$name."<".$email.">\r\n";
 
-    $recipient = "accram2005@hotmail.com";
+    $recipient = "info@horizonsolutionsarl.com";
 
-    mail($recipient,$tel , $message, $mailheader)
+    mail($recipient, $tel, $message, $mailheader)
     or die("error");
 
-    echo"message sent ";
+    echo"message sent";
 
 ?>
