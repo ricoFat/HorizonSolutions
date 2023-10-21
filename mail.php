@@ -9,15 +9,14 @@
 
     $recipient = "info@horizonsolutionsarl.com";
 
-    mail($recipient, $tel, $message, $mailheader);
+    $mail_sent = mail($recipient, $tel, $message, $mailheader);
 
     if ($mail_sent) {
         // If the mail was sent successfully, redirect to thankyou.html
         header("Location: index.html");
-        exit;
+        
     } else {
         // If there was an error sending the mail, display an error message
         die("Error sending the message");
     }
- 
 ?>
