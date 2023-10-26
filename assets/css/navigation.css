@@ -51,19 +51,19 @@ nav .lien
     content: '';
     position: absolute;
     left: 0;
-    bottom: -5px;
+    bottom: -3px;
     width: 90px;
     height: 3px;
     background-color: var(--primary-color);
     border-radius: 5px;
-    transform: translateY(-2px);
+    transform: translateY(8px);
     opacity: 0;
     transition: .5s;
 } 
 
 .lien_bar:hover::after
 {
-    transform: translateX(10%);
+    transform: translateX(3%);
     opacity: 1;
 }
 
@@ -76,3 +76,17 @@ nav .lien
 {
     color: lightgray
 }
+
+.navbar-toggler
+{
+    border: none;
+}
+
+.bx
+{
+    font-size: 2.5rem;
+    border: none;
+    color: var(--primary-black);
+}
+
+

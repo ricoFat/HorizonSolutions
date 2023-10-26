@@ -11,12 +11,15 @@
 
     $mail_sent = mail($recipient, $tel, $message, $mailheader);
 
-    if ($mail_sent) {
-        // If the mail was sent successfully, redirect to thankyou.html
+    if ($mail_sent) 
+    {
+        // Si le courriel est envoyé; on retourne à la page d'accueil
         header("Location: index.html");
-        
-    } else {
-        // If there was an error sending the mail, display an error message
+    } 
+    else 
+    {
+        // Sinon on envoie un message d'erreur et on reste sur la page contact
         die("Error sending the message");
+        header("Location: contact.html");
     }
 ?>

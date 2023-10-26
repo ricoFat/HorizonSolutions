@@ -2,92 +2,101 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-	<!--<link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.0/mdb.min.css" rel="stylesheet">-->
-	<link rel="stylesheet" href="assets/css/main.css">
-	<title>Contactez-nous</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--<link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.0/mdb.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Contactez-nous</title>
 </head>
+
 <body>
 
     <nav class="navbar navbar-expand-lg" style="background-image:url('assets/img/filigrane.png');">
-		<div class="container">
-			<a href="#" class="navbar-brand">
-				<img src="assets/img/logo.png" alt="Logo Horizon Solutions" class="logoNavigation">
-			</a>
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <img src="assets/img/logo.png" alt="Logo Horizon Solutions" class="logoNavigation">
+            </a>
 
-			<button class="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" >
-				<span class="navbar-toggler-icon"></span>
-			</button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-			<div class="collapse navbar-collapse" id="navMenu">
-				<ul class="navbar-na ms-auto lien">
-					<li class="nav-item"><a href="index.html" class="nav-link lien_bar">Acceuil</a></li>
-					<li class="nav-item"><a href="#services" class="nav-link lien_bar ">Services</a></li>
-					<li class="nav-item"><a href="contact.html" class="nav-link lien_bar ">Contact</a></li>
-					<li class="nav-item"><a href="#partenaires" class="nav-link lien_bar ">Partenaires</a></li>
-					<li class="nav-item"><a href="about.html" class="nav-link lien_bar">Qui sommes-nous</a></li>
-					
-				</ul>
-			</div>
-		</div>	
-	</nav>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-na ms-auto lien">
+                    <li class="nav-item"><a href="index.html" class="nav-link lien_bar">Acceuil</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link lien_bar ">Services</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link lien_bar ">Contact</a></li>
+                    <li class="nav-item"><a href="#partenaires" class="nav-link lien_bar ">Partenaires</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link lien_bar">Qui sommes-nous</a></li>
 
-    <main style="background-image:url('assets/img/filigrane.png');" >
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main style="background-image:url('assets/img/filigrane.png');">
         <div class="container">
             <section class=" row">
                 <h1 class=" text-center pt-4 solutions">Nous contacter</h1>
                 <section class=" formulaire col-12 col-md-6">
-    
+
                     <form action="mail.php" method="POST">
                         <h2 class="h3">Formulaire de contact</h2>
                         <fieldset>
                             <legend>Informations personnelles</legend>
                             <div class="mb-3 form-floating">
-                                <input type="text" name="name" id="name" class="form-control" placeholder="Votre nom" required>
+                                <input type="text" name="name" id="name" class="form-control" placeholder="Votre nom"
+                                    required>
                                 <label for="fName">Votre nom</label>
-    
+
                             </div>
                             <div class="mb-3 form-floating ">
-                                <input type="email" name="email" id="email" class="form-control" placeholder="Votre e-mail" required>
+                                <input type="email" name="email" id="email" class="form-control"
+                                    placeholder="Votre e-mail" required>
                                 <label for="fEmail">Votre E-mail</label>
-                                <small class="form-text">Nous ne partegerons pas votre adresse email avec des tiers.</small>
-    
+                                <small class="form-text">Nous ne partegerons pas votre adresse email avec des
+                                    tiers.</small>
+
                             </div>
                             <div class="mb-3 form-floating">
-                                <input type="tel" name="tel" id="tel" class="form-control" placeholder="Votre téléphone">
+                                <input type="tel" name="tel" id="tel" class="form-control"
+                                    placeholder="Votre téléphone">
                                 <label for="fTel">Votre Téléphone</label>
                             </div>
                         </fieldset>
-    
+
                         <fieldset>
                             <legend>Votre message</legend>
                             <div class="mb-3 form-floating">
                                 <textarea name="message" id="message" cols="40" rows="50" class="form-control message"
                                     placeholder="Votre message"></textarea>
                                 <label for="fMessage">Votre message</label>
-    
+
                             </div>
                             <button type="submit" class="btn btn-primary">Envoyer</button>
                         </fieldset>
-    
+
                     </form>
                 </section>
-    
+
                 <section class="col-12 col-md-6 mt-3 ">
-    
+
                     <p>
-                        Nous sommes ravis que vous souhaitiez entrer en contact avec nous. Votre opinion et vos questions
-                        sont importantes pour nous. Veuillez remplir ce formulaire avec autant de détails que possible afin
+                        Nous sommes ravis que vous souhaitiez entrer en contact avec nous. Votre opinion et vos
+                        questions
+                        sont importantes pour nous. Veuillez remplir ce formulaire avec autant de détails que possible
+                        afin
                         que nous puissions vous offrir la meilleure assistance possible.
                     </p>
                     <p>
-                        Nous nous efforçons de répondre à toutes les demandes dans les plus brefs délais. Merci de prendre
+                        Nous nous efforçons de répondre à toutes les demandes dans les plus brefs délais. Merci de
+                        prendre
                         le temps de nous communiquer vos informations, cela nous aidera à mieux vous servir. Nous sommes
                         impatients de vous entendre !
                     </p>
-    
+
                     <div class="mt-2">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3907.096158755599!2d27.497746476824293!3d-11.687597305696915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19723f9e2a1ceb63%3A0x83f6f3801b48b8b4!2sCommune%20Annexe(joli%20Site)!5e0!3m2!1sen!2sca!4v1696395971191!5m2!1sen!2sca"
@@ -124,15 +133,18 @@
             <h4 style="text-transform: uppercase;"> Nous contacter</h4>
             <div class="separation"></div>
             <ul class="lien">
-                <li> <img class="icone" src="assets/img/tel-blanc.png" alt="icone téléphone"> <a
-                        href="tel:+243851687873">+ 243 85 168 7873</a>
+                <li>
+                    <img class="icone" src="assets/img/tel-blanc.png" alt="icone téléphone">
+                    <a href="tel:+243851687873">+ 243 85 168 7873</a>
                 </li>
-                <li> <img class="icone" src="assets/img/tel-blanc.png" alt="icone téléphone"> <a
-                    href="tel:+243990200247">+ 243 99 020 0247</a>
+                <li>
+                    <img class="icone" src="assets/img/tel-blanc.png" alt="icone téléphone">
+                    <a href="tel:+243990200247">+ 243 99 020 0247</a>
                 </li>
-                
-                <li><img class="icone" src="assets/img/mail-blanc.png" alt="icone email">
-                    info@horizonsolutionsarl.com</li>
+
+                <li>
+                    <img class="icone" src="assets/img/mail-blanc.png" alt="icone email">info@horizonsolutionsarl.com
+                </li>
                 <li>
                     <address>
                         <img class="icone" src="assets/img/localisation-blanc.png" alt="icone localisation">
@@ -153,17 +165,17 @@
                 <li><a href="" class="inactive"><ion-icon name="logo-facebook"></ion-icon></a></li>
                 <li><a href="" class="inactive"><ion-icon name="logo-twitter"></ion-icon></a></li>
                 <li><a href="" class="inactive"><ion-icon name="logo-linkedin"></ion-icon></a></li>
-               
+
             </ul>
         </div>
     </div>
 
     <div class=" text-center mt-5">
         <hr>
-        <small class="text-body-white ">Horizon Solutions Trading S.A.R.L - Tous droits reservés©</small>
+        <small class="text-body-white ">Horizon Solutions S.A.R.L - Tous droits reservés © 2023</small>
         <marquee height="20px">
             <small>Powered and Designed by</small>
-            <a href="https://nembadesign.com/" target="_blank">
+            <a href="#" target="_blank">
                 <small style="color: white"> KamchapeWeb Designs</small>
             </a>
         </marquee>
