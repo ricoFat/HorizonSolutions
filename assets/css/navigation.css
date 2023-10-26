@@ -46,7 +46,7 @@ nav .lien
     position: relative;   
 }
 
-.lien_bar::after
+/* .lien_bar::after
 {
     content: '';
     position: absolute;
@@ -66,6 +66,46 @@ nav .lien
     transform: translateX(3%);
     opacity: 1;
 }
+ */
+
+/*  .lien_bar::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 90px;
+    height: 3px;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    transform: translateY(5px) translateX(-100%);
+    opacity: 0;
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+.lien_bar:hover::after {
+    transform: translateY(5px) translateX(0);
+    opacity: 1;
+} */
+
+.lien_bar::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 2px;
+    width: 0; /* Commencez avec une largeur de 0 */
+    height: 3px;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    transform: translateY(8px);
+    opacity: 0;
+    transition: width 0.5s ease-out, opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.lien_bar:hover::after {
+    width: 100%; /* Augmentez la largeur pour aller de gauche à droite */
+    opacity: 1;
+}
+
 
 .navbar-toggler-icon
 {
@@ -89,4 +129,15 @@ nav .lien
     color: var(--primary-black);
 }
 
+@media (max-width: 992px) 
+{
+    .lien_bar{
+        width: fit-content;
+    }
+    .lien_bar:hover::after 
+    {
+        width: 100%;
+        opacity: 1;
+    }
+}
 
