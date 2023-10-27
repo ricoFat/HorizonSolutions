@@ -29,7 +29,8 @@ nav, main
 }
 
 center
-html:hover *, html:hover *:before {
+html:hover *, html:hover *:before 
+{
 	transition-property: opacity, color, border-color, background-color, filter, -webkit-filter, mix-blend-mode, fill, stroke, transform, stroke-width, z-index;
 	transition-duration:  200ms;
 	transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);

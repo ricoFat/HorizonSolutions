@@ -1,4 +1,5 @@
-footer {
+footer 
+{
     padding: 1rem; 
     /*  display: flex; */
     align-items: center;
@@ -7,7 +8,8 @@ footer {
     color: white;
 }
 
-.reseauFooter {
+.reseauFooter 
+{
     display: flex;
     gap: 25px;
     font-size: 2.3rem;
@@ -17,23 +19,27 @@ footer {
     /* justify-content: center; */
 }
 
-.reseauFooter a {
+.reseauFooter a 
+{
     transition: scale 1s ease;
 }
 
-.reseauFooter a:hover {
+.reseauFooter a:hover 
+{
     scale: 1.8;
     color: var(--primary-color);
 }
 
-.separation {
+.separation 
+{
     width: 75%;
     height: 1px;
     background-color: white;
     margin-bottom: 10px;
 }
 
-footer ul  {
+footer ul
+{
     margin-top: 10px;
     margin-left: -2rem;
    
@@ -44,12 +50,11 @@ footer li
     margin-top: 10px;
 }
 
-.logoFooter {
-    
+.logoFooter 
+{   
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .bi 

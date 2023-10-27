@@ -92,18 +92,21 @@ section{
     margin-bottom: 20px;
 }
 
-.about-colss img{
+.about-colss img
+{
     position:relative;
 }
 
-.about-col i {
+.about-col i 
+{
     font-size: 28px;
     line-height: 0;
     color: #fff;
     transition: 0.3s;
 }
 
-.about-col .icon {
+.about-col .icon 
+{
     width: 64px;
     height: 64px;
     text-align: center;
@@ -130,7 +133,8 @@ section{
     color: var(--steel-blue);
 }
 
-h1::before {
+h1::before 
+{
     content: '';
     position: absolute;
     display: block;
@@ -142,7 +146,8 @@ h1::before {
 }
 
 
- h1 {
+ h1 
+ {
     font-size: 32px;
     color: #111;
     text-transform: uppercase;
@@ -152,7 +157,8 @@ h1::before {
     padding-bottom: 15px;
 }
 
-h1::after {
+h1::after 
+{
     content: '';
     position: absolute;
     display: block;

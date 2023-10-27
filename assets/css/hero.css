@@ -50,7 +50,7 @@
         text-transform: uppercase;
         /* letter-spacing: 2px; */
         font-weight: bold;
-         border-radius: 30px;
+         border-radius: 25px;
     }
     
     .hero a:hover
@@ -103,7 +103,7 @@
     .hero .gallerie .img_wrapper
     {
        overflow: hidden;
-       /* aspect-ratio: 1; */
+         aspect-ratio: 1;
     }
 
     .hero .gallerie img

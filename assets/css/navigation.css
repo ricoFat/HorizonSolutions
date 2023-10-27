@@ -131,9 +131,11 @@ nav .lien
 
 @media (max-width: 992px) 
 {
-    .lien_bar{
+    .lien_bar
+    {
         width: fit-content;
     }
+    
     .lien_bar:hover::after 
     {
         width: 100%;
