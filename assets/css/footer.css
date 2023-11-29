@@ -79,3 +79,9 @@ footer li
 {
     color: lightgray
 }
+
+marquee
+{
+    padding: 0 50px ;
+    color: /* var(--steel-blue) */ white;
+}
