@@ -35,24 +35,24 @@
     .hero p
     {
         font-size: 1.125rem;
-        line-height: 2;
+        font-weight: 600;
+        line-height: 1.5;
         margin: 2rem 0;
+        color: var(--primary-black)!important; 
     }
 
     .hero .see 
     {
-        /* travailler sur les a */
         display: inline-block;
-        padding: 1rem 3.5rem;
+        padding: 1rem 1.5rem;
         background-color: var(--primary-color);
         color: #fff;
-        /* font-size: 1.125rem; */
+        font-weight: 500;
+        font-size: 1.125rem;
         text-transform: uppercase;
-        /* letter-spacing: 2px; */
-        font-weight: bold;
          border-radius: 25px;
     }
-    
+
     .hero a:hover
     {
         background-color: var(--primary-black);
@@ -65,8 +65,13 @@
         width: 100%;
         aspect-ratio: 1/1;
         border: transparent;
-        
-        
+    }
+
+    .lead, .nav-link
+    {
+        color: var(--primary-black) !important;
+
+
     }
 
 /*     .hero .img-container::before
@@ -108,8 +113,8 @@
 
     .hero .gallerie img
     {
-         width:100%;
-        height: 100%; 
+        width:100%;
+       /*  height: 100%;  */
         object-fit: cover;
         cursor: pointer;
         transition: scale 1s ease;
@@ -119,6 +124,4 @@
     .hero .gallerie img:hover
     {
         scale: 1.1;
-    } 
-
-  
+    }

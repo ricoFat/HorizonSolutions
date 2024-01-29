@@ -10,7 +10,7 @@ html
   height: 100vh;
   scroll-behavior: smooth;
   line-height: 1.5625;
-  color: var(--primary-black);
+  color: var(--primary-black) !important;
 }
 
 body
