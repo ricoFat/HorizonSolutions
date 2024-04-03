@@ -1,14 +1,21 @@
+/* .carousel
+{
+  //  height: 100vh;
+} */
+
 .carItem
 {
      background-size: cover;
      background-position: center;
      object-fit: cover; 
+     /* height: 100dvh; */
 } 
 
 .carousel-caption
 {
-    /* bottom: 220px; */
-    z-index: 3;
+    top: 50%;
+    /* bottom: 430px; */ 
+    /* z-index: 3; */
 }
 
 .carousel-caption h5
@@ -23,6 +30,7 @@
 {
     width: 70%;
     margin: auto;
-    font-size: 20px;
+    font-size: 25px;
+    line-height: 1.2;
     color: white !important;
 }

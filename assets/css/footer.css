@@ -4,8 +4,12 @@ footer
     /*  display: flex; */
     align-items: center;
     justify-content: center;
-    background-color: var(--primary-black);
-    color: white;
+    background-color: var(--primary-black); 
+    background: url('../img/filigraneTransparent2.png') ,linear-gradient(var(--primary-black) 0 40%, var(--primary-color) ); 
+    background-position: center;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(10%);
+    color: #ffffff;
 }
 
 .reseauFooter 
@@ -19,15 +23,24 @@ footer
     /* justify-content: center; */
 }
 
+.footer_lien
+{
+    height: 20px
+}
+
+.lien_tel a:hover{
+    color: var(--shakespeare-bleu);
+}
+
 .reseauFooter a 
 {
-    transition: scale 1s ease;
+    transition: scale 0.8s ease;
 }
 
 .reseauFooter a:hover 
 {
-    scale: 1.8;
-    color: var(--primary-color);
+    transform: scale(1.8);
+    color: var(--shakespeare-bleu);
 }
 
 .separation 
@@ -50,13 +63,13 @@ footer li
 }
 
 .logoFooter 
-{   
+{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.bi 
+.bi
 {
     margin-right: 3px;
 }
@@ -82,5 +95,5 @@ footer li
 marquee
 {
     padding: 0 50px ;
-    color: /* var(--steel-blue) */ white;
+    color:  white;
 }

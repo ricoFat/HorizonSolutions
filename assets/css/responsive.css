@@ -39,6 +39,31 @@
         height: 80px;
     }
 
+    .carousel-caption
+{
+    top: 25%;
+    /* bottom: 430px; */ 
+    /* z-index: 3; */
+}
+
+    .carousel-caption h5
+{
+    text-transform: uppercase;
+    font-size: 35px;
+    letter-spacing: 1.3px;
+    margin-top: 25px;
+}
+
+.carousel-caption p
+{
+    width: 70%;
+    margin: auto;
+    font-size: 16px;
+    line-height: 1;
+    color: white !important;
+}
+
+
    /*  .container 
     {
         flex-direction: column;

@@ -79,7 +79,8 @@ p
     box-shadow: 3px 3px 6px rgba(14, 14, 14, 0.4);
 }
 
-section{
+section
+{
     padding-bottom: 40px;
 }
 
@@ -92,7 +93,7 @@ section{
     margin-bottom: 20px;
 }
 
-.about-colss img
+.about-col img
 {
     position:relative;
 }

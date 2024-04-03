@@ -12,8 +12,6 @@
     border: none;
     outline: none;
     cursor: pointer;
-    text-transform: uppercase;
-    
 }
 
 .btn:hover

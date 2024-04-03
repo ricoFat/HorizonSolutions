@@ -13,7 +13,7 @@ if (isset($_POST['email']) && !empty($_POST['email']))
         $mailheader = "From: " . $name . " <" . $email . ">\r\n";
         $recipient = "info@horizonsolutionsarl.com";
 
-        $subject = "New message from your website"; // Sujet du courriel
+        $subject = "Nouveau message de Horizon Solution "; // Sujeht du courriel
 
         $mail_sent = mail($recipient, $subject, $message, $mailheader);
 
