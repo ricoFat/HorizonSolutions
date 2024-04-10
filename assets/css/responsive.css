@@ -3,10 +3,9 @@
 {
     .carousel-item img 
     {
-       height: 450px !important; /* Adjust as needed */ 
-      /*   width: 100%; */
-         object-fit: cover; 
-         mix-blend-mode: multiply;
+        height: 450px !important;
+        object-fit: cover; 
+        mix-blend-mode: multiply;
       }
     .carousel-caption
     {
