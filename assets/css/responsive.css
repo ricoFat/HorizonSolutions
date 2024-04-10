@@ -1,9 +1,9 @@
 /* Mobile styles */
-@media (max-width:500px) 
+@media (max-width:512px) 
 {
     .carousel-item img 
     {
-       height: 400px !important; /* Adjust as needed */ 
+       height: 450px !important; /* Adjust as needed */ 
       /*   width: 100%; */
          object-fit: cover; 
          mix-blend-mode: multiply;
