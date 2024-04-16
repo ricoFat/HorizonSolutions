@@ -1,5 +1,5 @@
 /* Mobile styles */
-@media (max-width:512px) 
+@media only screen and  (max-width:512px) 
 {
     .carousel-item img 
     {
@@ -9,7 +9,7 @@
       }
     .carousel-caption
     {
-        top: 5% !important;
+        bottom: 165px !important;
         /* bottom: 430px; */ 
          /* z-index: 3; */
     }
@@ -26,7 +26,7 @@
     .carousel-caption h5
     {
         text-transform: uppercase;
-        font-size: 22px !important;
+        font-size: 20px !important;
         /* letter-spacing: px;*/
         margin-top: 10px;
     }
@@ -43,7 +43,7 @@
 }
 
 
-@media (max-width: 768px) 
+@media  only screen and (max-width: 768px) 
 {
     .navigation 
     {
