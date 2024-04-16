@@ -33,17 +33,15 @@
 
     .carousel-caption p
     {
-       /*  width: 400px; */
         margin: auto;
         font-size: 15px !important;
-         /* line-height: 1.2; */
         color: white !important;
     }
 
 }
 
 
-@media  only screen and (max-width: 768px) 
+@media only screen and (max-width: 768px) 
 {
     .navigation 
     {
@@ -67,8 +65,6 @@
     {
         width: 540px;
     }
-
- 
 
     .navigation .lien 
     {
@@ -97,22 +93,22 @@
         margin-top: 25px;
     }
 
-.carousel-caption p
-{
-    width: 600px;
-    margin: auto;
-    font-size: 16px;
-    /* line-height: 1px; */
-    color: white !important;
-}
+    .carousel-caption p
+    {
+        width: 600px;
+        margin: auto;
+        font-size: 16px;
+        /* line-height: 1px; */
+        color: white !important;
+    }
 
-.layer p
-{
-    font-size: 15px;
-
-}
+    .layer p
+    {
+        font-size: 15px;
+    }
    /*  .container 
     {
         flex-direction: column;
     } */
 }
+

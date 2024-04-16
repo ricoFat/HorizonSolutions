@@ -39,7 +39,7 @@ a
  h3, h4, h6 
 {
     line-height: 1.25;
-      font-size: 18px;  
+    font-size: 18px;  
     font-weight: 500;
     font-family: 'Trykker', serif;
     /* text-transform: uppercase; */
@@ -60,7 +60,9 @@ h1, h2
     color: var(--primary-black);
 
 }
-h1{
+
+h1
+{
     margin-bottom: 45px;
 }
 
@@ -123,7 +125,6 @@ section
     justify-content: center;
 }
 
-
 .horizon
 {
     color: var(--primary-color);
@@ -146,9 +147,8 @@ h1::before
     left: calc(50% - 125px);
 }
 
-
- h1 
- {
+h1 
+{
     font-size: 32px;
     color: #111;
     text-transform: uppercase;

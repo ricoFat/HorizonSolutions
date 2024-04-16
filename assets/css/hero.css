@@ -1,12 +1,11 @@
     /* HERO SECTION */
 
-.container2
-{
-
-	margin: 0 auto;
-	display: flex;
-	flex-wrap: nowrap;
-}
+    .container2
+    {
+    	margin: 0 auto;
+    	display: flex;
+    	flex-wrap: nowrap;
+    }
     .hero
     {
         padding: 5rem 0;
@@ -50,7 +49,7 @@
         font-weight: 500;
         font-size: 1.125rem;
         text-transform: uppercase;
-         border-radius: 25px;
+        border-radius: 10px;
     }
 
     .hero a:hover
