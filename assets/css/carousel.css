@@ -10,6 +10,11 @@
      object-fit: cover; 
 } 
 
+.carImg
+{
+    filter: brightness(0.7);
+}
+
 .carousel-caption
 {
     top: 50%;
