@@ -17,6 +17,16 @@
     flex-wrap: wrap;
 }
 
+.scroller__inner img
+{
+    height: 100px;
+}
+
+
+.scroller__inner h6
+{
+    font-size: 12px;
+}
 .scroller[data-animated="true"]
 {
     overflow: hidden;
