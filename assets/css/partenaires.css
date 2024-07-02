@@ -1,7 +1,7 @@
 .partenaireDiv img
 {
  /*    border-radius: 5px; */
-    height: 150px; 
+  /*   height: 150px;  */
 }
 .scroller
 {
@@ -19,14 +19,16 @@
 
 .scroller__inner img
 {
-    height: 70px;
+    height: 60px;
 }
 
 
 .scroller__inner h6
 {
-    font-size: 12px;
+    font-size: 10px;
+    text-align: center;
 }
+
 .scroller[data-animated="true"]
 {
     overflow: hidden;
