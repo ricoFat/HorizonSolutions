@@ -1,8 +1,8 @@
-.partenaireDiv img
+/*.partenaireDiv img
 {
- /*    border-radius: 5px; */
-  /*   height: 150px;  */
-}
+   border-radius: 5px; 
+    height: 150px;  
+}*/
 .scroller
 {
     max-width: 800px;
@@ -21,7 +21,6 @@
 {
     height: 60px;
 }
-
 
 .scroller__inner h6
 {
