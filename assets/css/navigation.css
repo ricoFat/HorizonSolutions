@@ -67,12 +67,10 @@ nav .lien
 footer .lien_bar::after
 {
     bottom: -6px;
-    background-color: var(--shakespeare-bleu);
+    background-color: var(--primary-color);
 }
 
-footer .footer_lien a:hover{
-    color: var(--shakespeare-bleu) !important;
-}
+
 
 .lien_bar:hover::after 
 {
