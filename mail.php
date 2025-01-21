@@ -9,7 +9,6 @@ if (isset($_POST['email']) && !empty($_POST['email']))
         $name = $_POST['name'];
         $tel = $_POST['tel'];
         $message = $_POST['message'];
-
         $mailheader = "From: " . $name . " <" . $email . ">\r\n";
         $recipient = "info@horizonsolutionsarl.com";
 
